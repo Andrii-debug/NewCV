@@ -1,0 +1,531 @@
+html {
+    box-sizing: border-box;
+    height: 1200px;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    
+  }
+
+
+
+
+body {
+    font-family: 'Ubuntu', 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    width: 100%;
+    background-color: black;
+    background-image: url('../img/markus-spiske-4T5MTKMrjZg-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.wrapper {
+    display: grid;
+    width: 60%;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+    height: 100%;
+    border: 1px solid black;
+    
+}
+
+p {
+    font-family:  'Lato', serif;
+
+}
+
+ul, li {
+    font-family:  'Lato', serif; 
+
+}
+
+
+        /* left half */
+.left {
+    background-color: #ffd900;
+    width: 100%;
+    border-right: 1px solid black;
+    
+}
+
+
+.left img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black ;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+
+.contact {
+    margin: 4px;
+    position: relative;
+    top: 20px;
+    padding: 8px;
+}
+
+.about ul {
+    padding-left: 0px;    
+}
+
+
+.languages {
+    margin: 4px;
+    position: relative;
+    top: 30px;
+    padding: 8px;
+}
+
+.languages .line {
+    position: relative;
+    top: 20px;
+}
+
+.languages h3 {
+    margin: 10px 0px;
+}
+
+#uk {
+    margin: 5px 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.skills {
+    
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.skills h3 {
+    
+    margin: 15px 0px;
+}
+
+.navbar ul li{
+    padding: 5px 0px;
+    list-style: none;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: black;
+    
+    
+}
+   /* // icon */
+.about .age {
+    background-image: url('../img/user.png');
+  
+}
+
+.about .city {
+    background-image: url('../img/free-icon-placeholder-684809.png');
+ 
+}
+
+.about .phone {
+    background-image: url('../img/phone.png');
+ 
+}
+
+.about .mail {
+    background-image: url('../img/email.png');
+}
+
+.about .telegram {
+    background-image: url('../img/premium-icon-telegram-739260.png');
+
+}
+
+.about .github {
+    background-image: url('../img/github.png');
+    
+}
+
+
+.about .Linkedin {
+    background-image: url('../img/linkedin.png');
+}
+
+
+        /* right half */
+
+.right {
+    background-color: blanchedalmond;
+   height: 100%;
+}
+
+.summary  {
+  position: relative;
+  top: 30px;
+  
+}
+
+.summary h2 {
+    padding: 5px;
+    margin: 2px;
+}
+     /* werk-exp */
+.about {
+    padding: 5px;
+    margin: 2px;
+}
+
+
+.block_1 {
+    position: relative;
+    top: 40px;
+}
+
+.block_1 h3 {
+    padding: 5px;
+    margin: 2px;
+}
+
+.main-info {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    
+}
+
+.date {
+    padding: 5px;
+    margin: 2px;
+}
+
+.place.header {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.header p {
+    font-style:italic;
+    font-weight: 700;
+}
+
+.aparatus {
+    padding: 5px;
+    margin: 2px;
+}
+
+.vacation {
+    text-align: center  ;
+}
+
+
+.task {
+    padding: 5px;
+    text-align: left;
+}
+
+.storekeeper {
+    padding: 5px;
+    margin: 2px;
+}
+
+            /* education */
+
+
+.education {
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+} 
+
+.wrapper_grid_university {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+}
+
+
+.university {
+    padding: 5px;
+    margin: 2px;
+}
+
+.university h4 {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.university p {
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+    
+}
+
+.courses {
+    padding: 5px;
+    margin: 2px;
+}
+
+.courses h4 {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.courses p {
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+}
+
+.project h3  {
+    padding: 5px;
+    margin: 2px;
+}
+
+.project a {
+    color: black;
+}
+
+.additional-info {
+    margin-top: 10px;
+}
+
+.additional-info h3, p {
+    margin: 2px;
+    padding: 5px;
+}
+
+.additional-info .line {
+    position: relative;
+    top: 15px;
+}
+
+
+.pet-proj {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 1200px){
+    .wrapper {
+        display: grid;
+        width: 75%;
+        grid-template-columns: 30% 70%;
+        height: 1100px;
+    }
+
+    .about ul {
+        padding-left: 0px;
+    }
+
+
+}
+
+
+@media screen  and (max-width: 1200px) and (min-width: 920px) {
+    html {
+        height: 1200px;
+    }
+
+    .left {
+        font-size: 0.9rem;
+    }
+
+    .right {
+        font-size: 0.9rem;
+    }
+    .wrapper {
+        display: grid;
+        width: 75%;
+        grid-template-columns: 30% 70%;
+        height: 1150px;
+    }
+}
+
+
+@media screen and (max-width: 920px) and (min-width: 769px) {
+    html {
+        height: 1500px;
+    }
+
+    .wrapper {
+        display: grid;
+        width: 75%;
+        grid-template-columns: 35% 65%;
+        height: 100%;
+    }
+    .contact ul {
+        padding: 0px;
+    }
+
+    .pet-proj {
+        
+        display: block;
+    }
+}
+
+@media screen and (max-width: 769px) and (min-width: 492px) {
+    html {
+        height: 1500px;
+    }
+    .wrapper {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 37% 63%;
+    height: 1400px;
+    
+    }
+    .contact {
+        margin: 0px;
+        padding: 5px; 
+    }
+    
+    .right,
+    .left {  
+        font-size: 0.85rem;
+    }
+
+
+    .navbar .about {
+        padding: 1px;
+    }
+
+    .contact ul {
+        padding: 0px;
+    }
+
+    .date p{
+        padding: 2px;
+        margin: 2px ;
+    }
+
+    .university p {
+        padding-left: 15px;
+    }
+
+    .courses p {
+        padding-left: 15px;
+    }
+    
+    .pet-proj {
+        display: block;
+        
+    }
+    
+}
+
+@media screen and (max-width: 492px) and (min-width: 320px) {
+    html {
+        height: 1500px;
+    }
+    
+    .wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    height: 1500px;
+    }
+
+    .left,
+    .right {
+        font-size: 0.7rem;
+    }
+    .contact {
+        padding-left: 0px;
+    }
+    
+    .contact ul {
+        padding: 0px;
+
+    }
+
+    .date p{
+        padding: 2px;
+        margin: 2px ;
+    }
+
+    .university p {
+        padding-left: 15px;
+    }
+
+    .courses p {
+        padding-left: 15px;
+    }
+    .navbar .about {
+        padding-left: 1px;
+    }
+
+    .date p{
+        padding: 0px;
+        margin: 2px ;
+    }
+
+    .wrapper_grid_university {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    
+    .about  li.mail {
+        display: none;
+    }
+
+    .pet-proj {
+        display: block;
+        
+    }
+}
+
+
+
+    /* garland */
+
+/* #garland {
+    position:absolute;
+    top:0;
+    left:0;
+    background-image:url('../img/garland.png');height:36px;width:100%;overflow:hidden;z-index:99
+
+}  
+
+#nums_1 {
+    padding:100px
+}  
+
+.garland_1 {
+    background-position: 0 0
+}  
+
+.garland_2 {
+    background-position: 0 -36px
+} 
+
+.garland_3 {
+    background-position: 0 -72px
+}
+
+.garland_4 {
+    background-position: 0 -108px
+} */
